@@ -1,0 +1,73 @@
+/* importação google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ede0d4;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+header{
+    background-color: #ede0d4;
+    width: 60%;
+    margin: auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1{
+    font-size: 55px;
+}
+
+header h1, section h2{
+    color: #5b361d;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+header p{
+    color: #6f4e37;
+}
+
+#info{
+    margin: 15px;
+}
+
+section{
+    width: 60%;
+    margin: auto;
+}
+
+section h2{
+    padding: 15px;
+    background-color: #DDB892;
+    font-size: 40px;
+}
+section li{
+    background-color: #ecdac9;
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    padding:  auto;
+    margin: 10px 0 ;
+    margin-bottom: 20px;    
+}
+
+li div{
+    padding: 5px 20px;
+}
+
+.preco{
+    font-weight: bold;
+}
+
+.desc{
+    margin: 7px 0;
+    font-size: 21px;
+}
